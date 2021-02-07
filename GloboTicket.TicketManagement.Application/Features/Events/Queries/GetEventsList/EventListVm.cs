@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GloboTicket.TicketManagement.Application.Features.Events
+namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventsList
 {
     public class EventListVm
     {

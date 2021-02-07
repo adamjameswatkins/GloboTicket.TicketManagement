@@ -1,6 +1,7 @@
-﻿using System;
+﻿using GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetail;
+using System;
 
-namespace GloboTicket.TicketManagement.Application.Features.Events
+namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetail
 {
     public class EventDetailVm
     {
