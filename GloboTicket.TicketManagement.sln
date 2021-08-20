@@ -22,9 +22,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{40F38EB2-8C93-4652-9FF2-ADCF05B48FD3}"
 	ProjectSection(SolutionItems) = preProject
 		Notes.md = Notes.md
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Persistence", "GloboTicket.TicketManagement.Persistence\GloboTicket.TicketManagement.Persistence.csproj", "{04C594C0-0173-4B2B-AFA2-457646574249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.Persistence", "GloboTicket.TicketManagement.Persistence\GloboTicket.TicketManagement.Persistence.csproj", "{04C594C0-0173-4B2B-AFA2-457646574249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
