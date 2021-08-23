@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagemen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.Infrastructure", "GloboTicket.TicketManagement.Infrastructure\GloboTicket.TicketManagement.Infrastructure.csproj", "{D2B3E86F-6A19-441B-97FA-131316939603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Api", "GloboTicket.TicketManagement.Api\GloboTicket.TicketManagement.Api.csproj", "{AF33D9A3-23C5-4F53-A4FD-1C80DB6E67A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.Api", "GloboTicket.TicketManagement.Api\GloboTicket.TicketManagement.Api.csproj", "{AF33D9A3-23C5-4F53-A4FD-1C80DB6E67A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Application.UnitTests", "GloboTicket.TicketManagement.Application.UnitTests\GloboTicket.TicketManagement.Application.UnitTests.csproj", "{86C311C0-60CB-4194-B1CE-1990FC669331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.Application.UnitTests", "GloboTicket.TicketManagement.Application.UnitTests\GloboTicket.TicketManagement.Application.UnitTests.csproj", "{86C311C0-60CB-4194-B1CE-1990FC669331}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Api.IntegrationTests", "GloboTicket.TicketManagement.Api.IntegrationTests\GloboTicket.TicketManagement.Api.IntegrationTests.csproj", "{FACF2655-EF80-41A4-AB5C-4058C4657B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.Api.IntegrationTests", "GloboTicket.TicketManagement.Api.IntegrationTests\GloboTicket.TicketManagement.Api.IntegrationTests.csproj", "{FACF2655-EF80-41A4-AB5C-4058C4657B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Persistence.IntegrationTests", "GloboTicket.TicketManagement.Persistence.IntegrationTests\GloboTicket.TicketManagement.Persistence.IntegrationTests.csproj", "{743E7C95-4CFB-47AB-9EE2-D7A9AF21FF1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.Persistence.IntegrationTests", "GloboTicket.TicketManagement.Persistence.IntegrationTests\GloboTicket.TicketManagement.Persistence.IntegrationTests.csproj", "{743E7C95-4CFB-47AB-9EE2-D7A9AF21FF1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GloboTicket.TicketManagement.App", "GloboTicket.TicketManagement.App\GloboTicket.TicketManagement.App.csproj", "{A7DF3E85-3F03-44EE-864B-9250D40C5649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{743E7C95-4CFB-47AB-9EE2-D7A9AF21FF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743E7C95-4CFB-47AB-9EE2-D7A9AF21FF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743E7C95-4CFB-47AB-9EE2-D7A9AF21FF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DF3E85-3F03-44EE-864B-9250D40C5649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DF3E85-3F03-44EE-864B-9250D40C5649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DF3E85-3F03-44EE-864B-9250D40C5649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DF3E85-3F03-44EE-864B-9250D40C5649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{86C311C0-60CB-4194-B1CE-1990FC669331} = {996D7049-87F1-4B96-AAF3-B4D2934B8CF0}
 		{FACF2655-EF80-41A4-AB5C-4058C4657B7A} = {996D7049-87F1-4B96-AAF3-B4D2934B8CF0}
 		{743E7C95-4CFB-47AB-9EE2-D7A9AF21FF1A} = {996D7049-87F1-4B96-AAF3-B4D2934B8CF0}
+		{A7DF3E85-3F03-44EE-864B-9250D40C5649} = {390BDC15-94F9-429F-ABE3-00E6B3BB82FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {938248B0-B5CD-4690-A2B3-1331CF337660}
